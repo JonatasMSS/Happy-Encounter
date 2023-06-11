@@ -111,7 +111,6 @@ export function CardTransition() {
         </animated.div>
       </button>
       <button
-        type="submit"
         onClick={handleButtonAddCard}
         className="rounded-lg border-2 border-zinc-800 bg-black/50 p-2 text-xl text-white transition-all hover:scale-110 hover:border-zinc-600 hover:bg-zinc-900/80"
       >
