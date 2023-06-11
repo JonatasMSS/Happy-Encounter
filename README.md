@@ -3,10 +3,7 @@
 <img width="960" alt="Main foto" src="https://github.com/JonatasMSS/Happy-Encounter/assets/74430293/1838ed97-4053-4e43-9256-272c56ebf56f">
 
 ## Descrição do Projeto
-
-O projeto foi desenvolvido durante o bootcamp da AWS na DIO e consiste em um web app para anotações rápidas online. O aplicativo permite que os usuários criem e armazenem anotações de forma prática e segura. Os dados das anotações são armazenados no localstorage para usuários não autenticados e de forma persistente no banco de dados para usuários autenticados. A autenticação do usuário é feita por meio da conexão com o AWS Cognito, que coleta e cria tokens JWT para permitir o acesso seguro e autenticado aos dados. Essa abordagem foi escolhida com o objetivo de colocar em prática os aprendizados do curso de AWS, especialmente em relação à autenticação e segurança dos dados. Além disso, essa dinâmica de autenticação adiciona uma camada extra de proteção às anotações dos usuários, garantindo que apenas usuários autorizados possam acessá-las. Isso proporciona uma experiência mais completa e segura aos usuários do aplicativo de anotações online.
-## Tecnologias Utilizadas
-
+Desenvolvi o projeto pensando em entender o processo de animação em sites. Como estava próximo do dia dos namorados, pensei em algo que pudesse relacionar o meu foco de aprendizado e alguma funcionalidade do site para esse dia. Então surgiu a ideia do Happy Encounter. Ele serve para criar cards para decidir o que irão fazer no dia dos namorados. Os cards possuirão alguma foto e texto na parte frontal e , na parte traseira, o que a pessoa ganhara para o dia.
 ### Linguagens de Programação
 
 - JavaScript
