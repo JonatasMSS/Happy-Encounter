@@ -7,10 +7,38 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        wiggle: {
+          '0%,100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(5deg)' },
+        },
+      },
+
+      animation: {
+        wiggle: 'wiggle 3s ease-in-out infinite',
+      },
+
+      fontFamily: {
+        sans: 'var(--font-lobster)',
+      },
+      colors: {
+        Cred: '#FB0A0A',
+        dune: {
+          10: '#F4F4F4',
+          20: '#CBC7C7',
+          30: '#A29B9A',
+          40: '#7A716F',
+          50: '#514947',
+          60: '#282322',
+        },
+        cardinal: {
+          10: '#FFEDF1',
+          20: '#FFB6C6',
+          30: '#FF809B',
+          40: '#F6476D',
+          50: '#B21C3C',
+          60: '#6E031A',
+        },
       },
     },
   },
