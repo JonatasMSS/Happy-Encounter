@@ -16,55 +16,20 @@ Desenvolvi o projeto com o objetivo de compreender o processo de animação em w
 
 - React
 - Next.js
+- React Spring (Animação)
+- TailwindCSS 
 
-### Banco de Dados
+## Inicialização
 
-- Prisma ORM
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-### Plataforma em Nuvem
-
-- AWS (Amazon Web Services)
-
-## Instalação
-
-1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-projeto.git`
-2. Acesse a pasta `web`: `cd web`
-3. Instale as dependências da pasta `web`: `npm install` ou `yarn install`
-4. Volte à pasta raiz do projeto: `cd ..`
-5. Acesse a pasta `server`: `cd server`
-6. Instale as dependências da pasta `server`: `npm install` ou `yarn install`
-
-## Configuração
-
-### Variáveis de ambiente - Server
-
-Crie um `.env`
-
-~~~shell script
-
-DATABASE_URL="file:./dev.db"
-SECRET_KEY_JWT = [Chave de assinatura JWT]
-COGNITO_USER_POOL_URL = [Url de acesso ao user pool do cognito]
-
-SECRET_ID_CLIENT = [O Secret ID Configurado no Cognito - É preciso habilitar essa função na criação do user pool]
-PUBLIC_ID_CLIENT = [O Public ID do Cognito User Pool]
-REDIRECT_URL = "localhost:3000/api/auth/callback" [A url de redirecionamento - De preferência mantenha semelhantemente assim - Se alterar no cognito altere-a aqui]
-
-~~~
-
-### Variáveis de Ambiente - Web
-
-Crie um `.env.local`
-
-~~~~shell script
-NEXT_PUBLIC_CONGNITO_USERS_URL = [Url de access ao user pool do cognito]
-NEXT_PUBLIC_CLIENT_ID = [O Public ID do Cognito ]
-NEXT_PUBLIC_REDIRECT_URI = "http://localhost:3000/api/auth/callback"
-~~~~
-
-## Execução
-
-Agora basta abrir a pasta `web` e executar `npm run dev`. Execute o mesmo dentro da pasta `server`
+Depois, abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver os resultados.
 
 ## Contato
 
