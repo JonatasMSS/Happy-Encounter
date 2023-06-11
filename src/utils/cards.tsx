@@ -1,3 +1,5 @@
+'use client'
+
 export interface Card {
   frontTitle: string
   img: string
