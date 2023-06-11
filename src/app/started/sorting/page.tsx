@@ -24,7 +24,7 @@ export default function Sorting() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cardsSelected])
-  console.log(cardsSelected)
+
   return (
     <div className=" relative flex w-full flex-col items-center justify-center bg-[#1C1C1C]">
       {activePopUp && (
