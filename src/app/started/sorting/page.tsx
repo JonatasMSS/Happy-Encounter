@@ -2,7 +2,7 @@
 
 import { CardInMemoryTransition } from '@/components/CardInMemoryTransition'
 import { CongratulationBar } from '@/components/CongratulationBar'
-import { useCards } from '@/utils/cards'
+import { Card, useCards } from '@/utils/cards'
 import { useEffect, useState } from 'react'
 
 export default function Sorting() {
@@ -10,10 +10,15 @@ export default function Sorting() {
   const [cardsSelected, setCardsSelected] = useState(0)
   const [activePopUp, setPopUp] = useState(false)
 
-  const maxCards = getMaxChoosedCards()
-  const cards = GetCards()
+  const [maxCards, setMaxCards] = useState(0)
+  const [cards, setCards] = useState<Card[]>([])
 
   useEffect(() => {
+    const cardsInMemory = GetCards()
+    setCards(cardsInMemory)
+    const maxCardsInMemory = getMaxChoosedCards()
+    setMaxCards(maxCardsInMemory)
+
     if (cardsSelected === maxCards) {
       setPopUp(true)
     }
