@@ -1,8 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💗 Happy Encounter 💗
 
-## Getting Started
+<img width="960" alt="Main foto" src="https://github.com/JonatasMSS/Happy-Encounter/assets/74430293/1838ed97-4053-4e43-9256-272c56ebf56f">
 
-First, run the development server:
+## Descrição do Projeto
+
+Desenvolvi o projeto com o objetivo de compreender o processo de animação em websites. Considerando a proximidade do dia dos namorados, busquei criar algo que pudesse relacionar meu foco de aprendizado a uma funcionalidade temática para essa ocasião. Surgiu então a ideia do Happy Encounter. Esta aplicação tem como propósito a criação de cartões para auxiliar na escolha de atividades a serem realizadas no dia dos namorados. Os cartões apresentarão uma imagem e um texto na parte frontal, enquanto na parte traseira indicarão o que a pessoa irá receber nesse dia especial.
+
+### Linguagens de Programação
+
+- JavaScript
+- TypeScript
+
+
+### Frameworks e Bibliotecas
+
+- React
+- Next.js
+- React Spring (Animação)
+- TailwindCSS 
+
+## Inicialização
 
 ```bash
 npm run dev
@@ -12,23 +29,10 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Depois, abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver os resultados.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contato
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Gostou? Me segue no linkedIn 😉😉
+https://www.linkedin.com/in/jonatasmss/
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
